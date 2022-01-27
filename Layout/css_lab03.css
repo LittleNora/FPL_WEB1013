@@ -1,0 +1,72 @@
+/* Quy ước chung */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 800px;
+}
+
+header {
+    background-color: orangered;
+    height: 18%;
+}
+
+nav {
+    background-color: green;
+    height: 6%;
+}
+
+article {
+    background-color: yellow;
+    min-height: 70%;
+    height: 70%;
+}
+
+footer {
+    clear: both;
+    background-color: green;
+    height: 6%;
+}
+
+
+/* Bài 2 */
+
+#layout2 article {
+    background-color: yellow;
+    width: 70%;
+    height: 70%;
+    float: right;
+}
+
+#layout2 aside {
+    background-color: deepskyblue;
+    min-height: 70%;
+    width: 30%;
+    height: 70%;
+    float: left;
+}
+
+
+/* Bài 3 */
+
+#layout3_1 {
+    height: 100%;
+    width: 75%;
+    float: left;
+}
+
+#layout3_2 {
+    height: 100%;
+    float: right;
+    width: 25%;
+}
+
+#layout3_2 aside {
+    background-color: deepskyblue;
+    height: 100%;
+}

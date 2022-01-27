@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#layout {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* ---------- Header ---------- */
+
+header {
+    background: url(img/Banner-AP.png);
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+    background-repeat: no-repeat;
+    height: 0px;
+}
+
+
+/* ---------- Menu ---------- */
+
+nav {
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+/* ---------- Article ---------- */
+
+article {
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+
+
+/* ---------- Aside ---------- */
+
+aside {
+    min-height: 400px;
+    width: 25%;
+    background-color: gray;
+    float: right;
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+    clear: both;
+    border-top: 5px double orangered;
+    background-color: aquamarine;
+    line-height: 50px;
+    text-align: center;
+    font-variant: small-caps;
+}

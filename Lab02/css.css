@@ -1,0 +1,58 @@
+/* CSS Bài 3 */
+body {
+    text-align: center;
+    font-variant: small-caps;
+}
+
+h2 {
+    color: white;
+    text-shadow: 0 0 5px red;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 25px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+strong {
+    color: brown;
+}
+
+.d1 {
+    color: red;
+}
+
+.d2 {
+    color: blue;
+}
+
+.d3 {
+    color: green;
+}
+
+/* CSS Bài 4 */
+img {
+    height: 120px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.border {
+    border-right: 1px solid black;
+    padding-right: 4px;
+}
