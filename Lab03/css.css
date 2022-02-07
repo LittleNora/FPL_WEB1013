@@ -1,0 +1,46 @@
+/*------------Bài 1------------*/
+img{
+    width: 20%;
+    height: 150px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background: yellow;
+}
+img:hover{
+    background: aqua;
+    box-shadow: 0 0 15px red;
+}
+/*------------Bài 2---------------*/
+.col{
+    width: 25%;
+    float: left;
+}
+.pro{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.pro .name{
+font-variant: small-caps;
+color: blue;
+}
+.pro img {
+    max-width: 95%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    background: white;
+}
+.pro img:hover {
+    box-shadow: 0 0 0 white;
+}
+.pro .pri{
+    color: red;
+    font-weight: bold;
+}
+.pro .pri del{
+    color: gray;
+}
