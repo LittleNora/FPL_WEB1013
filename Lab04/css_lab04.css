@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#layout {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+    background: url(img/LOGO.jpg) no-repeat center;
+    background-color: #414343;
+    height: 120px;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #0eaccd;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav .nav_link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+nav .nav_link:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: #0eaccd;
+}
+
+
+/* Aside */
+
+aside {
+    background-color: #414343;
+    width: 20%;
+    float: left;
+    min-height: 690px;
+}
+
+aside > ul {
+    margin-top: 20px;
+}
+
+aside .col_menu_title {
+    text-align: center;
+    color: #0789a4;
+    border-bottom: 3px solid #0789a4;
+    margin: 0;
+    padding: 15px;
+}
+
+aside .col_menu_link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0 10px 20px;
+    background: url(img/O1.png) left no-repeat;
+    transition: padding ease-in-out 0.2s;
+}
+
+
+aside .col_menu_link:hover {
+    padding-left: 25px;
+    color: #0789a4;
+    background: url(img/O2.png) left no-repeat;
+}
+
+/* Article */
+
+article {
+    background-color: white;
+    float: right;
+    width: 80%;
+    text-align: center;
+}
+
+article > img {
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+/* Footer */
+footer {
+    clear: both;
+    background-color: #0eaccd;
+    text-align: center;
+}
+
+footer > .footer_title {
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
