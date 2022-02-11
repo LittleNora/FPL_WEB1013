@@ -1,0 +1,56 @@
+body {
+    font-variant: small-caps;
+}
+
+
+/* control */
+
+.control {
+    margin: 3px 0;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    color: orangered;
+    width: 400px;
+    display: block;
+    outline: none;
+}
+
+.control:focus {
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid yellow;
+}
+
+
+/* group */
+
+.group {
+    margin: 10px 2px;
+}
+
+
+/* button */
+
+.button {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px gray;
+    padding: 5px 10px;
+    outline: none;
+}
+
+button:focus {
+    box-shadow: 0 0 3px orangered;
+    color: orangered;
+}
+
+button:disabled {
+    text-decoration: line-through;
+}
+
+.abc {
+    width: 380px;
+    border: 1px solid blue;
+}

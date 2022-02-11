@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="process.php" method="post">
+        <div class="group">
+            <div>
+                <label>Họ tên: </label>
+            </div>
+            <input type="text" name="name" class="control">
+        </div>
+        <div class="group">
+            <fieldset class="abc">
+                <legend>Giới tính</legend>
+                <input type="radio" name="gender" checked>
+                <label>Nam</label>
+                <input type="radio" name="gender">
+                <label>Nữ</label>
+                
+            </fieldset>
+        </div>
+        <div class="group">
+            <div>
+                <label>Hình ảnh</label>
+            </div>
+            <input type="file" name="photo">
+        </div>
+        <div class="group">
+            <div>
+                <label>Quốc tịch</label>
+            </div>
+            <input type="text" value="Việt Nam" readonly class="control">
+        </div>
+        <div class="group">
+            <div>
+                <label>Ngày sinh: </label>
+            </div>
+            <input type="date" name="date" class="control">
+        </div>
+        <div class="group">
+            <div>
+                <label>Điểm: </label>
+            </div>
+            <input type="number" name="mark" class="control" min="0" max="10" step="0.25">
+        </div>
+        <div class="group">
+            <fieldset class="abc">
+                <legend>Sở thích</legend>
+                <input type="checkbox" name="hobbies" id="" class="">
+                <label>Thể thao</label>
+                <input type="checkbox" name="hobbies" id="" class="">
+                <label>Du lịch</label>
+                <input type="checkbox" name="hobbies" id="" class="">
+                <label>Âm nhạc</label>
+                <input type="checkbox" name="hobbies" id="" class="">
+                <label>Ẩm thực</label>
+            </fieldset>
+        </div>
+        <div class="group">
+            <div>
+                <label>Ghi chú</label>
+            </div>
+            <textarea name="" class="control"></textarea>
+        </div>
+        <div class="group">
+            <button class="button">Đăng kí</button>
+            <button class="button" disabled>Nhập lại</button>
+        </div>
+    </form>
+</body>
+
+</html>
