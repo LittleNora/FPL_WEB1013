@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+th {
+    height: 50px;
+    background-color: pink;
+}
+
+td {
+    height: 40px;
+    text-align: center;
+}
+tr:nth-child(2n+1) {
+    background-color: blanchedalmond;
+}
