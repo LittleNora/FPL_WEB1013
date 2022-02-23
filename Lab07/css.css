@@ -1,0 +1,178 @@
+/* General */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0px auto;
+    font-family: "Tahoma";
+}
+
+
+/* Header */
+
+header {
+    width: 100%;
+    background-color: #009ee1;
+}
+
+header a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #ab8e03;
+}
+
+nav ul {
+    list-style: none;
+    margin: 3px 0;
+    text-align: left;
+    padding-left: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    line-height: 1.5;
+    color: #fefbfb;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ab8e03;
+    background-color: white;
+}
+
+
+/* Banner */
+
+.banner {
+    width: 100%;
+    height: 250px;
+    background: url('img/banner.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+
+/* Content */
+
+.content {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.content_title {
+    text-align: center;
+    font-size: 20px;
+    color: #6b5902;
+    font-weight: bold;
+    line-height: 0.9;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.content_title:hover {
+    color: red;
+    cursor: context-menu;
+}
+
+.products {
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 31%;
+    text-align: center;
+    padding: 15px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #ccc;
+    float: right;
+    margin: 20px 0;
+    position: relative;
+    top: 0;
+    transition: top linear 0.2s;
+}
+
+.product:hover {
+    cursor: pointer;
+    top: -5px;
+}
+
+.product_name {
+    font-size: 18px;
+    color: #2a2828;
+    font-weight: bold;
+    line-height: 1.389;
+}
+
+.product_name:hover {
+    color: red;
+    cursor: context-menu;
+}
+
+.price_origin {
+    font-size: 16px;
+    color: #1d1d1d;
+    text-decoration: line-through;
+    line-height: 2.25;
+    margin: 0;
+}
+
+.price_origin:hover {
+    color: chocolate;
+    cursor: context-menu;
+}
+
+.text_underline {
+    text-decoration: underline;
+}
+
+.price_sale {
+    font-size: 24px;
+    color: #c1080f;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.price_sale:hover {
+    cursor: context-menu;
+    color: darkblue;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: #009ee1;
+}
+
+footer h1 {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+  
