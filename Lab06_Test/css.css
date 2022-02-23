@@ -1,0 +1,143 @@
+/* General */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Container */
+
+#container {
+    font-family: 'Tahoma';
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+}
+
+header img {
+    padding: 10px;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #c1080f;
+}
+
+nav ul {
+    list-style: none;
+    margin: 5px 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: #c1080f;
+}
+
+
+/* Banner */
+
+.banner {
+    height: 234px;
+    width: 100%;
+    background: url(img/banner.png) no-repeat center;
+    background-size: 100% 100%;
+}
+
+
+/* Products Box */
+
+.products_box {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.products_box_title {
+    font-size: 20px;
+    color: #272f54;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.products {
+    width: 100%;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 31%;
+    float: right;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product:hover {
+    box-shadow: 0 0 10px #ccc;
+}
+
+.product_img {
+    width: 250px;
+    padding: 10px 0;
+}
+
+.product_name {
+    font-size: 16px;
+    color: #2a2828;
+    font-weight: bold;
+    line-height: 1.563;
+    margin: 5px 0;
+}
+
+.product_price {
+    margin: 0;
+    font-size: 24px;
+    color: #c1080f;
+    font-weight: bold;
+    line-height: 1.042;
+    padding: 15px 0;
+}
+
+
+/* Footer */
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #272f54;
+}
+
+footer h1 {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    padding: 15px 0;
+    font-weight: normal;
+}
